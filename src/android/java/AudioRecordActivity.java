@@ -81,7 +81,7 @@ public class AudioRecordActivity extends Activity {
         
 		this.mContext = this;
 
-        mRecordButton = (Button) findViewById(getResources().getIdentifier("capture", "id", getPackageName()));
+        mRecordButton = (Button) findViewById(getResources().getIdentifier("button_capture", "id", getPackageName()));
         mRecordButton.setOnTouchListener(new OnTouchListener() {
 
 			@Override

@@ -54,5 +54,55 @@
         <resource-file src="src/android/image/preview_back.png" target="res/drawable-hdpi/preview_back.png" />
         <resource-file src="src/android/image/video_capture_btn.png" target="res/drawable-hdpi/video_capture_btn.png" />
         
+	</platform>    
+	
+    <!-- android -->
+    <platform name="ios">
+		<config-file target="config.xml" parent="/*">
+		    <feature name="ForegroundCameraLauncher">
+		        <param name="ios-package" value="ForegroundCameraLauncher"/>
+		    </feature>
+		    <feature name="LocalStorage">
+		        <param name="ios-package" value="CDVLocalStorage" />
+		    </feature>
+		</config-file>
+        
+        <header-file src="src/ios/class/CameraEngine.h" />      
+        <source-file src="src/ios/class/CameraEngine.m" />      
+		
+        <header-file src="src/ios/class/CaptureAudioViewController.h" />      
+        <source-file src="src/ios/class/CaptureAudioViewController.m" />    
+		  
+        <header-file src="src/ios/class/CaptureVideoViewController.h" />      
+        <source-file src="src/ios/class/CaptureVideoViewController.m" />      
+		
+        <header-file src="src/ios/class/CustomCameraViewController.h" />      
+        <source-file src="src/ios/class/CustomCameraViewController.m" />  
+		    
+        <header-file src="src/ios/class/ForegroundCameraLauncher.h" />      
+        <source-file src="src/ios/class/ForegroundCameraLauncher.m" />      
+        
+        <header-file src="src/ios/class/VideoEncoder.h" />      
+        <source-file src="src/ios/class/VideoEncoder.m" />      
+
+        <resource-file src="src/ios/class/CaptureAudioViewController.xib" />      
+        <resource-file src="src/ios/class/CaptureVideoViewController.xib" />      
+        <resource-file src="src/ios/class/CustomCameraViewController.xib" />      
+
+        <resource-file src="src/ios/image/back_to_picture_btn.png" />      
+        <resource-file src="src/ios/image/buttons_back.png" />      
+        <resource-file src="src/ios/image/cancel.png" />      
+        <resource-file src="src/ios/image/capture_video.png" />      
+        <resource-file src="src/ios/image/forward_btn.png" />      
+        <resource-file src="src/ios/image/photo_capture.png" />      
+        <resource-file src="src/ios/image/photo_library.png" />      
+        <resource-file src="src/ios/image/preview_back.png" />      
+        <resource-file src="src/ios/image/video_capture_btn.png" /> 
+		
+		<framework src="CoreVideo.framework" weak="true" />     
+		<framework src="CoreGraphic.framework" weak="true" />     
+		<framework src="AVFoundation.framework" weak="true" />     
+		<framework src="CoreAudio.framework" weak="true" />     
+		
 	</platform>          
 </plugin>
