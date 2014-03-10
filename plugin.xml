@@ -67,27 +67,27 @@
 		    </feature>
 		</config-file>
         
-        <header-file src="src/ios/class/CameraEngine.h" />      
-        <source-file src="src/ios/class/CameraEngine.m" />      
+        <header-file src="src/ios/classes/CameraEngine.h" />      
+        <source-file src="src/ios/classes/CameraEngine.m" />      
 		
-        <header-file src="src/ios/class/CaptureAudioViewController.h" />      
-        <source-file src="src/ios/class/CaptureAudioViewController.m" />    
+        <header-file src="src/ios/classes/CaptureAudioViewController.h" />      
+        <source-file src="src/ios/classes/CaptureAudioViewController.m" />    
 		  
-        <header-file src="src/ios/class/CaptureVideoViewController.h" />      
-        <source-file src="src/ios/class/CaptureVideoViewController.m" />      
+        <header-file src="src/ios/classes/CaptureVideoViewController.h" />      
+        <source-file src="src/ios/classes/CaptureVideoViewController.m" />      
 		
-        <header-file src="src/ios/class/CustomCameraViewController.h" />      
-        <source-file src="src/ios/class/CustomCameraViewController.m" />  
+        <header-file src="src/ios/classes/CustomCameraViewController.h" />      
+        <source-file src="src/ios/classes/CustomCameraViewController.m" />  
 		    
-        <header-file src="src/ios/class/ForegroundCameraLauncher.h" />      
-        <source-file src="src/ios/class/ForegroundCameraLauncher.m" />      
+        <header-file src="src/ios/classes/ForegroundCameraLauncher.h" />      
+        <source-file src="src/ios/classes/ForegroundCameraLauncher.m" />      
         
-        <header-file src="src/ios/class/VideoEncoder.h" />      
-        <source-file src="src/ios/class/VideoEncoder.m" />      
+        <header-file src="src/ios/classes/VideoEncoder.h" />      
+        <source-file src="src/ios/classes/VideoEncoder.m" />      
 
-        <resource-file src="src/ios/class/CaptureAudioViewController.xib" />      
-        <resource-file src="src/ios/class/CaptureVideoViewController.xib" />      
-        <resource-file src="src/ios/class/CustomCameraViewController.xib" />      
+        <resource-file src="src/ios/classes/CaptureAudioViewController.xib" />      
+        <resource-file src="src/ios/classes/CaptureVideoViewController.xib" />      
+        <resource-file src="src/ios/classes/CustomCameraViewController.xib" />      
 
         <resource-file src="src/ios/image/back_to_picture_btn.png" />      
         <resource-file src="src/ios/image/buttons_back.png" />      
