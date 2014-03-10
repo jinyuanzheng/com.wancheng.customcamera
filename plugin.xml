@@ -102,7 +102,6 @@
         <resource-file src="src/ios/image/video_capture_btn.png" /> 
 		
 		<framework src="CoreVideo.framework" weak="true" />     
-		<framework src="CoreGraphic.framework" weak="true" />     
 		<framework src="AVFoundation.framework" weak="true" />     
 		<framework src="CoreAudio.framework" weak="true" />     
 		
